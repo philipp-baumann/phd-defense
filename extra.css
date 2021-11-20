@@ -1,0 +1,8 @@
+.title-slide, .title-slide h1 {
+  color: var(--title-slide-text-color);
+  font-family: var(--header-font-family);
+}
+.title-slide, .title-slide h2, .title-slide h3 {
+  color: var(--title-slide-text-color);
+  font-family: var(--text-font-family);
+}

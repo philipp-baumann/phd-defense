@@ -1,0 +1,104 @@
+---
+title: "<b>Scaling-up soil quality assessments:</b><br> efficient infrared-spectroscopic workflows<br> across space and time"
+subtitle: "PhD defense"  
+author: 
+  - "Philipp Baumann"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer-mod.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+colors = c(
+  blue = "#7982F7FF",
+  red = "#f34213",
+  purple = "#3e2f5b",
+  orange = "#ff8811",
+  green = "#136f63",
+  white = "#FFFFFF"
+)
+style_mono_accent(
+  base_color = "#1c5253",
+  header_font_google = google_font("Arvo"),
+  text_font_google   = google_font("Open Sans"),
+  code_font_google   = google_font("Fira Mono"),
+  colors = colors,
+  title_slide_background_color = "#DABE69FF",
+  title_slide_text_color = "black",
+  header_h1_font_size = "1.5rem",
+  header_h2_font_size = "1.25rem",
+  header_h3_font_size = "1rem",
+)
+```
+
+
+---
+class: inverse-blue center middle
+
+# Introduction
+
+---
+
+# .blue[Introduction]
+
+Ay now it is **.red[time]**
+
+---
+
+# **Chapter 1:** Estimation of soil properties with mid-infrared soil spectroscopy across yam production landscapes in West Africa
+
+.left-column[
+**.blue[ Background: ]**
+<br>
+<br>
+<br>
+<br>
+**.lgreen[Aims:]**
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+** .red[ Main objectives and research questions: ] **
+]
+
+.right-column[
+- Increasing **land use frequencies** and **shorter fallow periods** in the **"yam belt" of West Africa**
+- Importance of **soil organic matter** for soil quality: 
+  - storage capacity and availability of essential plant nutrients
+<br>
+
+
+- Provide a tool to **rapidly identify** and understand soil fertility constraints to yam production for new soils in the project regions:
+  - .e.g., to better derive **site-specific** nutrient recommendations for yam in **four different** yam-growing **soil ecoregions** in Ivory Coast and Burkina Faso (timing, placement, form of fertilizer)
+  - **cover the typical variation** in soil properties for yam-growing areas:  soils from 80 fields of smallholder farmers; climatic gradient between humid forest and northern Guinean savanna
+  - verify the soil quality effects of sustainable and innovative soil and crop management options
+
+
+- **Develop and assess mid-IR spectroscopy models** to estimate soil properties that describe inherent soil fertility and control nutrient availability.
+- What is the **potential** and what are the the **limitations** of **spectroscopic soil diagnostics** for discriminating landscape level and farm specific soil variability for agronomic purposes?
+]
