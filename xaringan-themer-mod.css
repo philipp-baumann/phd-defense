@@ -52,6 +52,7 @@
   --inverse-text-color: #FFFFFF;
   --inverse-background-color: #1c5253;
   --inverse-background-color-blue: #7982F7FF;
+  --inverse-background-color-brown: #8F6052FF;
   --inverse-header-color: #FFFFFF;
   --inverse-link-color: #1c5253;
   --title-slide-background-color: #8F6052FF;
@@ -140,13 +141,20 @@ a, a > code {
 .inverse-blue {
   background-color: var(--inverse-background-color-blue);
   color: var(--inverse-text-color);
-
+}
+.inverse-brown {
+  background-color: var(--inverse-background-color-brown);
+  color: var(--inverse-text-color);
 }
 .inverse h1 {
   color: var(--inverse-header-color);
   font-size: 3rem;
 }
 .inverse-blue h1 {
+  color: var(--inverse-header-color);
+  font-size: 3rem;
+}
+.inverse-brown h1 {
   color: var(--inverse-header-color);
   font-size: 3rem;
 }

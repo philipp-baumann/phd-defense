@@ -87,7 +87,7 @@ Ay now it is **.red[time]**
 - Provide a tool to **rapidly identify** and understand **soil fertility constraints** to yam production for new soils in the project regions:
   - .e.g., to better derive **context specific** nutrient recommendations for yam in **four different** yam-growing **soil ecoregions** in Ivory Coast and Burkina Faso (timing, placement, form of fertilizer)
   - **cover the typical variation** in soil properties for yam-growing areas:  soils from 80 fields of smallholder farmers; climatic gradient between humid forest and northern Guinean savanna
-  - verify the soil quality effects of sustainable and innovative soil and crop management options
+  - **verify** the **soil quality effects** of sustainable and innovative soil and crop management options
 ]
 
 ---
@@ -141,7 +141,7 @@ Ay now it is **.red[time]**
 
 - **Soil sensing and SSLs** provides faster and highly cost-effective means to detect changes in soil organic carbon
 - **bias-variance tradeoff:** with many more but slightly less accurate measurements we can **more effectively detect** the trajectory in SOC over time and at a resolution of small-range soil variation
-- Do as few as necessary analytical reference measurements for long-term experiments and soil monitoring sites
+- Do **as few as necessary analytical measurements** for long-term experiments and soil monitoring sites
 ]
 
 ---
@@ -156,6 +156,13 @@ Ay now it is **.red[time]**
 - What is an **effective workflow** to conduct **plot level transfer for a long-term experimental site** so that only **minimal amounts of new local laboratory analytical measurements** are needed to **complement and extract existing knowledge from SSLs**?
 - Is similarity-driven or performance-driven transfer learning better to **improve the tradeoff of accuracy vs. adaptation requirements for soil monitoring**?
 ]
+
+---
+class: inverse-brown center middle
+
+# Research findings and conclusions
+
+---
 
 
 
