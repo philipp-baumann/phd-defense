@@ -177,6 +177,12 @@ knitr::include_graphics(path = "figs/chapter1/results-chapter1.png")
 knitr::include_graphics(path = "figs/chapter3/results-chapter3-teil1.png")
 ```
 
+---
+# **Chapter 3** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
+
+```{r, echo=FALSE, out.width=900}
+knitr::include_graphics(path = "figs/chapter3/results-chapter3-teil2.png")
+```
 
 ---
 class: inverse-brown center middle
