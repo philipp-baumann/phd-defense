@@ -1,0 +1,2 @@
+- **Develop and assess mid-IR spectroscopy models** to estimate soil properties that describe inherent soil fertility and control nutrient availability.
+- What is the **potential** and what are the the **limitations** of **spectroscopic soil diagnostics** for discriminating landscape level and farm specific soil variability for agronomic purposes?
