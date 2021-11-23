@@ -82,7 +82,7 @@ Ay now it is **.red[time]**
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-**.red[ Main objectives and research questions: ]**
+**.red[ Main objectives: ]**
 ]
 
 .right-column[
@@ -125,15 +125,20 @@ Ay now it is **.red[time]**
 # **Chapter 2:** Developing the Swiss mid-infrared soil spectral library for local estimation and monitoring
 
 .left-column[
- **.red[Main objectives and research questions:]**
+ **.red[Main objectives:]**
 ]
 
 .right-column[
 - Build a **harmonized mid-IR SSL for Switzerland**
-   - based on **spatial soil variation** from geographical grid observations of the Biodiversity Monitoring (BDM) program and **spatio-temporal soil information** from agricultural sites of the Swiss Soil Monitoring network (NABO).
-- How reliable is **rule-based modeling** to extract general estimates for **16 key soil properties** with separate regressions from all available data?
-- How and how accurately can data-driven **"SSL-to-plot" transfer workflows** reproduce **soil changes at individual monitoring locations**?
-  - How useful is a **medium sized and diverse SSL** for **systematic soil monitoring**?
+
+  - Include spatial and spatio-temporal chemical and physical soil variability
+  
+- Estimate **16 key soil properties** with mid-IR spectroscopy and **rule-based modeling**
+  
+- Design data-driven **"SSL-to-plot" transfer workflows**:
+
+  - To reproduce **soil changes at individual monitoring locations**?
+  - To test **medium sized and diverse SSL** for **systematic soil monitoring**?
 ]
 
 ---
@@ -141,18 +146,6 @@ Ay now it is **.red[time]**
 
 .left-column[
 **.blue[Background:]**
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-**.lgreen[Aims:]**
-
 ]
 
 .right-column[
@@ -161,29 +154,41 @@ Ay now it is **.red[time]**
   
 - Frick trial of the Research Institute of Organic Agriculture (FiBL):
   - **Significant changes in organic carbon levels at 0—20cm between 2002 and 2018**
+  - Higher organic carbon contents for **reduced tillage**
   
-  - Main increase of OC contents: **reduced tillage** treatments.
-
-
-&lt;br&gt;
-- **Soil sensing and SSLs** effectively detect changes in soil organic carbon
-  - **bias-variance tradeoff:** any more measurements; slightly less accurate; relatively unbiased
-      - Trajectory in SOC over time: oil variability over small ranges and over larger extents
-      
-- **Drastically minimize analytical measurements** for soil monitoring and verification
+  &lt;img src="figs/chapter3/background-chapter3.png" width="800" /&gt;
 ]
 
 ---
 # **Chapter 3:** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
 
 .left-column[
-**.red[Main objectives and research questions]**
+**.lgreen[Aims:]**
 ]
 
 .right-column[
-- What is the accuracy of point estimates and the accuracy of changes with mid-IR spectroscopy and all samples
-- What is an **effective workflow** to conduct **plot level transfer for a long-term experimental site** so that only **minimal amounts of new local laboratory analytical measurements** are needed to **complement and extract existing knowledge from SSLs**?
-- Is similarity-driven or performance-driven transfer learning better to **improve the tradeoff of accuracy vs. adaptation requirements for soil monitoring**?
+- **Soil sensing and SSLs:** effectively detect changes in soil organic carbon
+  - **Bias-variance tradeoff:** any more measurements; lower accuracy relatively unbiased
+      
+- **Minimize analytical measurements** for soil monitoring and verification
+]
+
+
+---
+# **Chapter 3:** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
+
+.left-column[
+**.red[Main objectives:]**
+]
+
+.right-column[
+- Assess accuracy of **changes in organic carbon** with **mid-IR spectroscopy** using all samples.
+
+- Design an **effective workflow** for **plot level transfer for a long-term experimental site**: transfer learning
+
+  - Use only **10 samples from first year** with analytical measurements
+
+  - **Complement with relevant knowledge from SSLs**
 ]
 
 ---
