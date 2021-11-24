@@ -62,7 +62,15 @@ class: inverse-blue center middle
 
 # .blue[Introduction]
 
-Ay now it is **.red[time]**
+.left-column[
+****
+]
+
+.right-column[
+```{r, echo=FALSE, out.width=750}
+knitr::include_graphics(path = "figs/material-and-methods/measurement-spectra.png")
+```
+]
 
 ---
 # **Chapter 1:** Estimation of soil properties with mid-infrared soil spectroscopy across yam production landscapes in West Africa
@@ -171,8 +179,8 @@ knitr::include_graphics(path = "figs/chapter2/karte_bdm_nabo.jpg")
   
 - Design data-driven **"SSL-to-plot" transfer workflows**:
 
-  - To reproduce **soil changes at individual monitoring locations**?
-  - To test **medium sized and diverse SSL** for **systematic soil monitoring**?
+  - To reproduce **soil changes at individual monitoring locations**
+  - To test **medium sized and diverse SSL** for **systematic soil monitoring**
 ]
 
 ---
@@ -204,7 +212,7 @@ knitr::include_graphics(path = "figs/chapter2/karte_bdm_nabo.jpg")
 
 .right-column[
 - **Soil sensing and SSLs:** effectively detect changes in soil organic carbon
-  - **Bias-variance tradeoff:** any more measurements; lower accuracy relatively unbiased
+  - **Bias-variance tradeoff:** more measurements; lower accuracy, but relatively unbiased trends
       
 - **Minimize analytical measurements** for soil monitoring and verification
 ]
