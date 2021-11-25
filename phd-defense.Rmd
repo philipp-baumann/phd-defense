@@ -60,6 +60,26 @@ class: inverse-blue center middle
 # Introduction
 
 ---
+# Introduction
+
+- Quantify soil as a resource:
+
+  - Need information for soil quality for:
+  
+    - Agronomic management:
+      - fertilizer use efficiency
+      - to verify sustainable soil management (organic matter buildup)
+    - Forestry
+    - Soil monitoring
+    - Spatial soil mapping
+    - Policy making and soil planning:
+      - Sealing of soil: settlement and infrastructure
+    - Climate inventories
+    - Environmental research
+    - Protection of biodiversity
+  
+
+---
 # .blue[Introduction]
 
 .left-column[
