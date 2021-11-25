@@ -36,7 +36,8 @@ colors = c(
   purple = "#3e2f5b",
   orange = "#ff8811",
   green = "#136f63",
-  white = "#FFFFFF"
+  white = "#FFFFFF",
+  brown = "#8F6052FF"
 )
 style_mono_accent(
   base_color = "#1c5253",
@@ -59,18 +60,25 @@ class: inverse-blue center middle
 # Introduction
 
 ---
-
 # .blue[Introduction]
 
 .left-column[
-****
+Spectroscopic measurements and chemical information contents
 ]
 
 .right-column[
-```{r, echo=FALSE, out.width=750}
+```{r, echo=FALSE, out.width=800}
 knitr::include_graphics(path = "figs/material-and-methods/measurement-spectra.png")
 ```
 ]
+
+---
+# .blue[Introduction]
+
+<br>
+```{r, echo=FALSE, out.width=900}
+knitr::include_graphics(path = "figs/material-and-methods/classical-and-transfer-workflow.png")
+```
 
 ---
 # **Chapter 1:** Estimation of soil properties with mid-infrared soil spectroscopy across yam production landscapes in West Africa
@@ -98,7 +106,7 @@ knitr::include_graphics(path = "figs/yam-study-region.png")
 
 .right-column[
 - Provide a tool to **rapidly identify** and understand **soil fertility constraints** to yam production for new soils in the project regions:
-  - .e.g., to better derive **context specific** nutrient recommendations
+  - e.g., to better derive **context specific** nutrient recommendations
   
   - **cover the typical variation** in soil properties
   
@@ -125,7 +133,7 @@ knitr::include_graphics(path = "figs/yam-study-region.png")
 
 .right-column[
 - Provide a tool to **rapidly identify** and understand **soil fertility constraints** to yam production for new soils in the project regions:
-  - .e.g., to better derive **context specific** nutrient recommendations
+  - e.g., to better derive **context specific** nutrient recommendations
   
   - **cover the typical variation** in soil properties
   
@@ -141,7 +149,7 @@ knitr::include_graphics(path = "figs/yam-study-region.png")
 ---
 # **Chapter 1:** Estimation of soil properties with mid-infrared soil spectroscopy across yam production landscapes in West Africa
 
-```{r, echo=FALSE, out.width=1800}
+```{r, echo=FALSE, out.width=1000}
 knitr::include_graphics(path = "figs/chapter1/results-chapter1.png")
 ```
 
@@ -184,6 +192,13 @@ knitr::include_graphics(path = "figs/chapter2/karte_bdm_nabo.jpg")
 ]
 
 ---
+# **Chapter 2:** Developing the Swiss mid-infrared soil spectral library for local estimation and monitoring
+
+```{r, echo=FALSE, out.width=1200}
+knitr::include_graphics(path = "figs/chapter2/chapter2-results-part1.png")
+```
+
+---
 # **Chapter 3:** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
 
 .left-column[
@@ -195,7 +210,7 @@ knitr::include_graphics(path = "figs/chapter2/karte_bdm_nabo.jpg")
   - Maintain or increase levels of **soil organic matter and soil organic carbon stocks** in farmlands
   
 - Frick trial of the Research Institute of Organic Agriculture (FiBL):
-  - **Significant changes in organic carbon levels at 0—20cm between 2002 and 2018**
+  - **Significant changes in organic carbon levels** at 0—20cm depth between 2002 and 2018
   - Higher organic carbon contents for **reduced tillage**
   
   ```{r, echo=FALSE, out.width=800}
@@ -217,15 +232,29 @@ knitr::include_graphics(path = "figs/chapter2/karte_bdm_nabo.jpg")
 - **Minimize analytical measurements** for soil monitoring and verification
 ]
 
-
 ---
 # **Chapter 3:** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
 
 .left-column[
+**.lgreen[Aims:]**
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 **.red[Main objectives:]**
 ]
 
 .right-column[
+- **Soil sensing and SSLs:** effectively detect changes in soil organic carbon
+  - **Bias-variance tradeoff:** more measurements; lower accuracy, but relatively unbiased trends
+      
+- **Minimize analytical measurements** for soil monitoring and verification
+
+<br>
+
 - Assess accuracy of **changes in organic carbon** with **mid-IR spectroscopy** using all samples.
 
 - Design an **effective workflow** for **plot level transfer for a long-term experimental site**: transfer learning
@@ -235,8 +264,9 @@ knitr::include_graphics(path = "figs/chapter2/karte_bdm_nabo.jpg")
   - **Complement with relevant knowledge from SSLs**
 ]
 
+
 ---
-# **Chapter 3** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
+# **Chapter 3:** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
 
 <br>
 ```{r, echo=FALSE, out.width=1000}
@@ -244,7 +274,7 @@ knitr::include_graphics(path = "figs/chapter3/results-chapter3-teil1.png")
 ```
 
 ---
-# **Chapter 3** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
+# **Chapter 3:** Detecting management induced changes in soil organic carbon at the plot level with mid-infrared spectroscopy
 
 ```{r, echo=FALSE, out.width=900}
 knitr::include_graphics(path = "figs/chapter3/results-chapter3-teil2.png")
@@ -253,7 +283,112 @@ knitr::include_graphics(path = "figs/chapter3/results-chapter3-teil2.png")
 ---
 class: inverse-brown center middle
 
-# Research findings and conclusions
+# Research conclusions
 
 ---
+# Conclusions
+.left-column[
+**Mid-infrared spectroscopy and SSLs**
+]
 
+.right-column[
+- Mid-infrared spectroscopy has **.lgreen[opportunities]** and **.red[limitations]**:
+
+  - **.lgreen[Good performance:]** Key soil properties such as <br> **organic carbon**, **total N**, **pH**, **cation exchange capacity**, **texture**, **clay minerals**, **carbonates**
+      - Clear relationships of soil properties to mineral and organic soil composition
+      
+  - **.red[Poor or limited performance:]** Some extraction based methods <br> for agronomic diagnostics such as <br> plant **available macronutrients (phosphorus, potassium)** and **micronutrients (zink)** 
+      - Complex relationships of exchange processes <br> between soil solution and mineral–organic surface complexes
+      
+      - Higher data densities over regional and farm extents; transfer modeling
+      - Complement with other spectroscopy proxy methods <br> (i.e. laser-induced breakdown spectroscopy; X-ray diffraction)
+]
+
+---
+# Conclusions
+
+.left-column[
+**.brown[Transfer learning (I):]**
+]
+
+.right-column[
+- **Optimization** of large training sets towards new target soil samples/applications:
+
+  - **.blue[Workflow]**: **how** soil data is **presented** to **algorithms** **.blue[matters]**
+  
+  - **Representativeness:** sample the spectroscopic **space evenly** with **spectra** and **statistical methods** (i.e., distance and/or dissimilarity): 
+  
+      - **Validation samples** are *a must* (i.e, 2% to 5% analytical measurements).
+      - **Adaptation samples** are often required for desired performance (i.e., 2% to 5% analytical measurements)
+      - **Test/prediction samples** are the *scaling benefits* from spectroscopic workflows. Estimated with relevant subsets of the SSL based on the optimization on the adaptation samples (90 to 95%).
+]
+
+---
+# Conclusions
+
+.left-column[
+**Transfer learning (II):**
+]
+
+.right-column[
+- **.blue[Continuous updating of SSLs]** and **.blue[transfer learning]**:
+
+  - With chemical and linked spectroscopic diversity
+
+      - To **enhance** the **extraction** of **relevant knowledge** of relationships of spectra and measured properties
+      - To **reduce analytical measurements** in new monitoring sites and mapped soil regions
+  
+      - Using **data-driven modeling** (i.e., rs-local selection)
+
+]
+
+---
+# Outlook: next steps
+
+.left-column[
+**.blue[In Switzerland]**
+
+```{r, echo=FALSE, out.width=75}
+knitr::include_graphics(path = "figs/conclusions/ermatingen-tobel_bodenprofil.jpg")
+```
+<br> 
+.small[Waldböden der Schweiz, Band 3. hep-Verlag
+(Zimmermann S., Luster J., Blaser P., Walthert L., Lüscher P., 2006)]
+<br>
+]
+
+.right-column[
+
+
+
+- Develop soil spectroscopy into a **ready-made tool** for soil mapping and monitoring:
+
+  - Automated platform for **soil data analytics**
+  
+  - Quality control and validation for measurements and modeling
+  
+  - Embed it into classical **workflows** of **soil survey** and **soil data science** methodology:
+      - To handle enormous soil data demand:
+          - To better assess and understand **soil functions in soil landscapes**
+      - To provide **representative sampling in soil ecosystems** with digital soil mapping
+      - To contribute to the **advancement of quantitative soil knowledge**
+]
+
+---
+# Outlook: next steps
+
+.left-column[
+**.blue[Research in soil spectroscopy]**
+]
+
+.right-column[
+  - Develop/combine more extensions for transfer approaches:
+  
+    - Non-linear predictive modeling:
+        - To select **relevant samples and/or features** (spectral variables)<br> **from SSLs and new target soil sets**
+        - To pre-train and transduce **parts of models** (i.e., convolutional neural networks)
+        
+    - Increase **computational efficiency** for estimating properties of new soil samples
+    
+  
+]
