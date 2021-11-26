@@ -66,6 +66,7 @@
   --orange: #ff8811;
   --green: #136f63;
   --white: #FFFFFF;
+  --brown: #8F6052FF;
 }
 
 html {
@@ -300,5 +301,11 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 }
 .bg-white {
   background-color: var(--white);
+}
+.brown {
+  color: var(--brown);
+}
+.bg-brown {
+  background-color: var(--brown);
 }
 
